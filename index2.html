@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>إدارة الأنشطة - المدرسية</title>
+  <style>
+    /* ...نفس التنسيق كما هو... */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-image: url('file:///C:/Users/DROUB/OneDrive/Desktop/graduation%20project/images/10.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    }
+
+    header {
+      background-color: #004085;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+      background-color: #004085;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .logo {
+      height: 60px;
+    }
+
+    .center-logo {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    header p {
+      margin: 5px 0 20px;
+      font-size: 18px;
+    }
+
+    header button {
+      padding: 12px 24px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    header button:hover {
+      background-color: #0056b3;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      color: #004085;
+    }
+
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #e9ecef;
+      color: #333;
+    }
+
+    input[type="text"] {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      width: 90%;
+    }
+
+    button {
+      padding: 8px 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+
+    @media (max-width: 768px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+      }
+
+      th, td {
+        text-align: right;
+        padding: 10px;
+      }
+
+      table {
+        margin: 10px auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>الثانوية الثالثة عشر بجدة</h1>
+    <p>أنشطة المدرسة - الفصل الدراسي الثالث لعام ١٤٤٦</p>
+    <div class="header">
+      <img src="C:\Users\DROUB\OneDrive\Desktop\graduation project\images\1.png" alt="الشعار الأوسط" class="logo center-logo">
+      <br><br><br>
+    </div>
+    <button onclick="window.location.href='index.html'">العودة إلى الصفحة الرئيسية</button>
+    <button onclick="window.location.href='index2.html'">اذهب إلى صفحة الأنشطة</button>
+     <button onclick="window.location.href='index3.html'">اذهب إلى صفحة حصص الاحتياط والاتقان</button>
+    <button onclick="window.location.href='index5.html'">اذهب إلى صفحة أخبار المدرسة</button>
+    <button onclick="window.location.href='index4.html'">اذهب إلى صفحة الاجتماعات</button>
+  </header>
+
+  <main>
+    <h2>جدول الأنشطة الأسبوعية</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>اليوم</th>
+          <th>اسم النشاط</th>
+          <th>المعلمة المشرفة</th>
+          <th>تعديل</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>الأحد</td>
+          <td><input type="text" value="القراءة الحرة"></td>
+          <td><input type="text" value="أ. هدى"></td>
+          <td><button>حفظ</button></td>
+        </tr>
+        <tr>
+          <td>الإثنين</td>
+          <td><input type="text" value="الرسم والتلوين"></td>
+          <td><input type="text" value="أ. نجلاء"></td>
+          <td><button>حفظ</button></td>
+        </tr>
+        <!-- يمكنك إضافة أنشطة أخرى هنا -->
+      </tbody>
+    </table>
+
+    <h2>الأنشطة الخاصة (يومية - نهاية الدوام)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>التاريخ</th>
+          <th>اسم النشاط</th>
+          <th>المكان</th>
+          <th>تعديل</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>١٥ شعبان</td>
+          <td><input type="text" value="معرض الفنون"></td>
+          <td><input type="text" value="الصالة الكبرى"></td>
+          <td><button>حفظ</button></td>
+        </tr>
+        <tr>
+          <td>١٧ شعبان</td>
+          <td><input type="text" value="ندوة صحية"></td>
+          <td><input type="text" value="قاعة الأنشطة"></td>
+          <td><button>حفظ</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <script>
+    function حفظ_البيانات(event) {
+      const الصف = event.target.closest('tr');
+      const القيم = Array.from(الصف.querySelectorAll('input')).map(input => input.value);
+      alert("تم حفظ البيانات: " + القيم.join(' | '));
+    }
+
+    document.querySelectorAll("table button").forEach(button => {
+      button.addEventListener("click", حفظ_البيانات);
+    });
+  </script>
+
+</body>
+</html>

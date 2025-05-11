@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    padding: 20px;
+    direction: rtl;
+    text-align: center;
+    background-image: url('file:///C:/Users/DROUB/OneDrive/Desktop/graduation%20project/images/13.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h2 {
+    color: #005b96;
+    margin-bottom: 30px;
+  }
+  
+  .icon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .icon-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 25px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-box:hover {
+    background-color: #e1f0ff;
+    transform: scale(1.05);
+  }
+  
+  .icon-box i {
+    font-size: 32px;
+    color: #0074d9;
+    margin-bottom: 10px;
+    display: block;
+  }

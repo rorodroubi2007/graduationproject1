@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-image: url('file:///C:/Users/DROUB/OneDrive/Desktop/graduation%20project/images/11.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #004085;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  .center-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.news-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.news-item {
+    background-color: white;
+    border-right: 5px solid #004080;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.news-item h2 {
+    margin-top: 0;
+    color: #004080;
+}
+
+.news-item .date {
+    display: block;
+    margin-top: 10px;
+    color: #888;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+}
